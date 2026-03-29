@@ -1,0 +1,145 @@
+# 🎯 Career Recommendation System using Machine Learning
+
+## 1. Introduction
+
+Choosing the right career path is one of the most important decisions in a student’s life. Many students face confusion due to lack of guidance, unclear interests, and pressure from society. This project aims to solve this problem by using Machine Learning to recommend suitable career options based on a student’s skills and academic performance.
+
+---
+
+## 2. Problem Statement
+
+Students often struggle to decide which career path to pursue after school or during college. Traditional methods of career guidance are either limited or not personalized.
+This project addresses the problem by building a system that predicts a suitable career based on measurable attributes like academic scores and skills.
+
+---
+
+## 3. Objectives
+
+* To develop a machine learning model that suggests careers
+* To analyze student skills and academic performance
+* To provide a simple and user-friendly interface for predictions
+* To apply concepts of AI and ML learned in the course
+
+---
+
+## 4. Methodology
+
+### 4.1 Data Collection
+
+A dataset was created manually containing multiple student profiles.
+Each record includes:
+
+* Maths marks
+* Physics marks
+* Computer Science marks
+* Communication skills
+* Creativity level
+* Career label
+
+---
+
+### 4.2 Data Preprocessing
+
+* Data was cleaned and structured using Python libraries
+* Features and target variables were separated
+* No missing values were present in the dataset
+
+---
+
+### 4.3 Model Selection
+
+The following models were used:
+
+* Random Forest Classifier (Primary Model)
+* Decision Tree Classifier (for comparison)
+
+Random Forest was selected as the final model due to better accuracy and stability.
+
+---
+
+### 4.4 Model Training
+
+* The dataset was split into training and testing sets
+* The model was trained using training data
+* Predictions were made on test data
+
+---
+
+### 4.5 Evaluation
+
+Model performance was evaluated using accuracy score.
+The Random Forest model showed better performance compared to the Decision Tree model.
+
+---
+
+## 5. Results and Analysis
+
+* The model successfully predicts career options based on input features
+* Feature importance analysis showed that technical subjects (Maths, CS) play a major role in predicting technical careers
+* Visualization graphs were used:
+
+  * Career Distribution Graph
+  * Feature Importance Graph
+  * Model Comparison Graph
+
+These graphs helped in understanding the dataset and model behavior.
+
+---
+
+## 6. System Implementation
+
+The project was implemented using:
+
+* Python
+* Pandas (for data handling)
+* Scikit-learn (for machine learning models)
+* Streamlit (for user interface)
+
+The system allows users to input their skills using sliders and instantly get career recommendations.
+
+---
+
+## 7. Challenges Faced
+
+* Creating a meaningful dataset manually
+* Selecting the right features for prediction
+* Understanding model performance and tuning
+* Integrating machine learning model with UI
+
+---
+
+## 8. Conclusion
+
+This project demonstrates how Machine Learning can be applied to solve real-world problems like career guidance.
+It provides a simple yet effective way to recommend careers based on student abilities.
+
+Through this project, practical knowledge of:
+
+* Data handling
+* Model training
+* Evaluation
+* Deployment
+
+was gained.
+
+---
+
+## 9. Future Improvements
+
+* Use a real-world dataset instead of manually created data
+* Add more features like personality traits and interests
+* Improve model accuracy using advanced algorithms
+* Deploy the application online
+* Add more career options
+
+---
+
+## 10. References
+
+* Scikit-learn Documentation
+* Python Documentation
+* Course Materials (Fundamentals of AI & ML)
+
+---
+
+# ✅ End of Report
