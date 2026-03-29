@@ -33,3 +33,8 @@ This project uses Machine Learning to recommend careers based on skills and mark
 
 ## AUTHOR
 --Harshit Kumar
+
+##Output Screenshots
+<img width="1870" height="921" alt="output png" src="https://github.com/user-attachments/assets/c8c1da16-1103-44d1-b5f5-c8c9be1449fa" />
+
+<img width="1907" height="952" alt="output2 png" src="https://github.com/user-attachments/assets/87a36e88-01d6-40c7-8e87-cec5df0cbfc4" />
